@@ -1,0 +1,4 @@
+outs:
+- md5: 4d88f80d758169dc02ee995c3a7fd565
+  size: 41033956
+  path: clean_amazon_reviews_test.csv
