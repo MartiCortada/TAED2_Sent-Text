@@ -1,4 +1,4 @@
 outs:
-- md5: 22fd6fd388f8b5eac33d7323bc3fd653
-  size: 369298206
+- md5: 1f8571775c156af4c67ff7de91d2a1ad
+  size: 73897180
   path: clean_amazon_reviews_train.csv
