@@ -1,4 +1,4 @@
-# Amazon reviews
+# Sent-Text: Amazon reviews
 ### Meet our team and project
 We are Martí Cortada, Marçal Estruch, Jofre Poch and Pol Rifé, four enthusiast students in the world of Data Science and Engineering. We have created **Amazon_reviews** [public repository](https://github.com/MartiCortada/Amazon_reviews) in order to be used as a common workspace for the development of a very interesting project.
 
