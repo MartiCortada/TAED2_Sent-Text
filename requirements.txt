@@ -4,7 +4,7 @@ uvicorn
 gunicorn
 uvloop
 httptools
-functools
+wraps
 datetime
 pathlib
 typing
