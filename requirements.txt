@@ -15,9 +15,6 @@ bokeh==2.4.2
 branca==0.4.2
 bunch==1.0.1
 cachetools==5.0.0
-Cartopy==0.20.2
-Proj==8.0.0
-GEOS==3.7.2
 certifi==2021.10.8
 cffi==1.15.0
 charset-normalizer==2.0.12
