@@ -9,7 +9,6 @@ import pandas as pd
 import random2
 import torch
 import torch.nn.functional as F
-import pickle
 
 
 if torch.cuda.is_available():
