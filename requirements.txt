@@ -9,7 +9,7 @@ datetime
 pathlib
 typing
 numpy
-pandas
+pandas==1.2.4
 random
 torch==1.8.1+cpu
 torchvision==0.9.1+cpu
