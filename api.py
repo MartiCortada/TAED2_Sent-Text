@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Dict, List
 import numpy as np
 import pandas as pd
-import random
+import random2
 import torch
 import torch.nn.functional as F
 import shutil
@@ -90,7 +90,7 @@ def pool_generator(data, batch_size, token_size, shuffle=False):
         p_batch = batch_generator(sorted(p, key=lambda t: len(t[0]), reverse=True), batch_size, token_size)
         p_list = list(p_batch)
         if shuffle:
-            for b in random.sample(p_list, len(p_list)):
+            for b in random2.sample(p_list, len(p_list)):
                 yield b
         else:
             for b in p_list:

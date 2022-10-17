@@ -10,7 +10,7 @@ pathlib
 typing
 numpy==1.21.5
 pandas==1.4.1
-random
+random2
 torch==1.8.1+cpu
 torchvision==0.9.1+cpu
 shutil
