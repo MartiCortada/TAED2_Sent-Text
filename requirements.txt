@@ -13,5 +13,4 @@ pandas==1.4.1
 random2
 torch==1.8.1+cpu
 torchvision==0.9.1+cpu
-os
 pickle
