@@ -32,7 +32,6 @@ entrypoints==0.4
 executing==0.8.3
 folium==0.12.1.post1
 fonttools==4.29.1
-GDAL==3.4.1
 google-auth==2.6.6
 google-auth-oauthlib==0.4.6
 grpcio==1.44.0
