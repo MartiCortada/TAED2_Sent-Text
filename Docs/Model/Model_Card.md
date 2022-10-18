@@ -68,7 +68,7 @@ Nevertheless, our initial model was not trained with the dataset we will be usin
 
 Before applying our model with our chosen dataset, we had to preprocess our data as we had more information than the one needed. In fact, the raw dataset had a total of 1.800.000 training samples for each class. Therefore, as we have 2 classes (the positive and the negative one), we were dealing with a training dataset of 3.6 million samples.
 
-In order to reduce the size of this first version of our Amazon Reviews dataset, we are going to generate two more versions for different sizes of the dataset; the first one is going to be 1/3 of the whole dataset (1.2 million training samples) and the second one will be 1/4 of the entire dataset too (900.000 training samples).
+In order to reduce the size of this first version of our Amazon Reviews dataset, we are going to generate three more versions for different sizes of the dataset; the first one is going to be 1/3 of the whole dataset (1.2 million training samples); the second one will be 1/4 of the entire dataset too (900.000 training samples). Finally, we are going to keep just 1/20 of the initial dataset's rows, as the model works fine with this amount of data and costs severely decrease.
 
 Once we have checked the size of our dataset in terms of rows, it is time to start analyzing the size in terms of columns. In fact, our initial dataset has three columns: Polarity (class 1 for negative reviews or class 2 for the positive ones), Title (review heading) and Text (review body). Hence, for our purpose, we have just considered to use two of the three columns that we have mentioned before. Therefore, our y-class is going to be the Polarity and the x-class will be the Text (as we can observe, the Title columns is not going to be used). Moreover, we have also changed its names. So, from now on, Polarity column will be named as *class*, and the Text column will be named as *review_text*.
 
@@ -91,12 +91,12 @@ MAX_NORM = 1
 
 The model achieves the following results without any fine-tuning:
 
--   TRAINING ACCURACY OF THE MODEL IS: **96.372%**
-
--   TRAINING TIME: **4h 1 min**
+-   TRAINING ACCURACY OF THE MODEL IS: **89.88%**
 
 Once we have fine-tuned our model with MLflow, the training accuracy we have obtained is:
 
--   TRAINING ACCURACY OF THE MODEL IS:
+-   TRAINING ACCURACY OF THE MODEL IS: **92.40%**
 
--   TRAINING TIME:
+Finally, the testing results using the optimal hyperparameters are:
+
+-   TESTING ACCURACY OF THE MODEL IS: **90.69%**
