@@ -104,7 +104,7 @@ An example from the AmazonPolarity test set looks as follows:
 
 ### Data Splits
 
-The Amazon reviews polarity dataset is constructed by taking review score 1 and 2 as negative, and 4 and 5 as positive. Samples of score 3 is ignored. Each class has 1,800,000 training samples and 200,000 testing samples.
+The Amazon reviews polarity dataset is constructed by taking review score 1 and 2 as negative, and 4 and 5 as positive. Samples of score 3 are ignored. Each class has 1,800,000 training samples and 200,000 testing samples.
 
 ## Dataset Creation
 
